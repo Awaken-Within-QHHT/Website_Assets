@@ -1,1 +1,5 @@
-.formaloo--root-container, .formaloo--root-container iframe {z-index:0!important}
+ .formaloo--root-container,
+  .formaloo--root-container iframe {
+    position: relative;
+    z-index: 0 !important;
+  }
