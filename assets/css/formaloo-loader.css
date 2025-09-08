@@ -4,6 +4,14 @@
   z-index: 0 !important;
 }
 
+#formLoader {
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 90%;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
 @keyframes loader-sweep {
   0% { transform: translateX(-100%); }
   100% { transform: translateX(300%); }
@@ -11,4 +19,5 @@
 
 .loader-bar {
   animation: loader-sweep 1.2s ease-in-out infinite;
+  border-radius: 8px;
 }
